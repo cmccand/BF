@@ -1,5 +1,8 @@
 body {
   margin-left: 10%; }
+  body .first #gif {
+    width: 60%;
+    border: 1px solid lightgray; }
 
 header .logo {
   width: 38%;
@@ -44,7 +47,6 @@ header .interview {
       -ms-transform: rotate(0deg);
       -o-transform: rotate(0deg);
       filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0); }
-
 header h1 {
   font-family: 'Roboto', sans-serif;
   font-size: 4vw; }
@@ -90,6 +92,7 @@ h4 {
 
 .container img {
   display: inline-block;
+  /*   float:left; */
   width: 5vw;
   height: 10vh; }
 .container .byline {
