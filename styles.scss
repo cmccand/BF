@@ -17,6 +17,9 @@ header {
   .interview {
     display:inline-block;
     margin-left:10%;
+    h3 {
+      color:black;
+    }
     a {
       text-decoration:none;
       outline:0;
@@ -123,8 +126,8 @@ h4 {
   img {
     display:inline-block;
   /*   float:left; */
-    width:5vw;
-    height:10vh;
+    width:5%;
+    /* height:10vh; */
   }
   .byline {
     display:inline-block;
