@@ -4,6 +4,46 @@ body {
 header .logo {
   width: 38%;
   padding-top: 1%; }
+header .interview {
+  display: inline-block;
+  margin-left: 10%; }
+  header .interview a {
+    text-decoration: none;
+    outline: 0;
+    border: none; }
+    header .interview a:visited {
+      text-decoration: none;
+      color: black;
+      border: none; }
+    header .interview a:active {
+      text-decoration: none;
+      color: black;
+      border: none; }
+    header .interview a:focus {
+      text-decoration: none; }
+  header .interview button {
+    border-radius: 50%;
+    background-color: yellow;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    border: none;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2); }
+    header .interview button:hover {
+      background-color: white;
+      border: solid 1px black;
+      -webkit-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0); }
 header h1 {
   font-family: 'Roboto', sans-serif;
   font-size: 4vw; }
